@@ -29,12 +29,16 @@ body{
 .nav-links ul li a:link {
     color: white;
 }
-.nav-links ul li a:hover {
-    color: yellow;
-    transition: 2s;
-}
 .nav-links ul li a:visited {
     color: white;
+}
+.nav-links ul li a:hover {
+    color: yellow;
+    transition: 1.5s;
+}
+.nav-links ul li a:active {
+    color: skyblue;
+    transition: 0s;
 }
 .intro-text {
     max-width: 45vw;
@@ -67,13 +71,22 @@ body{
     max-height: 70vh;
 }
 .about {
-    margin: 5%;
-    padding: 5%;
+    content: "";
+    clear: both;
+    display: table;
+    margin: 8vw;
+    padding: 8vw;
     background: gray;
+    /* Use Happy Birthday Background */
 }
-.about img {
+.about-img img{
     float: left;
     width: 300px;
     height: 300px;
-    margin-right: 5px;
+    margin-right: 20px;
+}
+.about-text {
+    font-size: 1em;
+    /* margin: 20px; */
+    text-align: justify;
 }
