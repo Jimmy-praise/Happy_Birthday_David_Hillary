@@ -128,16 +128,18 @@ body{
     color: white;
 }
 .test{
-    display: block;
-    max-width: 80vw;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 80vw; */
+    margin: 5vw;
 }
 .test-content {
+    margin: 5px;
     padding: 20px;
     border-radius: 40px;
-    width: 300px;
-    height: fit-content;
     background: grey;
+    flex: 1;
+    /* float: left; */
 }
 .test-img {
     display: block;
