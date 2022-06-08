@@ -111,20 +111,23 @@ body{
     height: 80px;
 }
 .images {
-    display: block;
-    max-width: 70vw;
-    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vw;
 }
-.images div  {
-    /* width: 400px; */
-    /* height: 100px; */
-    /* flex: 1 1 0%; */
-    /* float: left; */
-    /* align-content: center; */
-    float: left;
+.image1  {
+    margin: 5px;
+    /* width: 320px; */
+    flex: 1 1 0%;
+}
+.image1 img {
+    /* margin: 5px; */
+    max-width: 320px;
+    height: auto;
+    border: 5px double gold;
+    border-radius: 30px;
 }
 .testimonials {
-    clear: both;
     color: white;
 }
 .test{
