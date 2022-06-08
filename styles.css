@@ -76,7 +76,9 @@ body{
     display: table;
     margin: 8vw;
     padding: 8vw;
-    background: gray;
+    background: rgb(98, 101, 104);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
     /* Use Happy Birthday Background */
 }
 .about-img img{
@@ -91,4 +93,37 @@ body{
     text-align: justify;
     line-height: 40px;
     font-size: larger;
+}
+.gallery {
+    /* margin: 3vw; */
+    color: white;
+}
+.title {
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 8vw;
+}
+.title img {
+    padding: 15px 0px 40px 0px;
+    box-sizing: content-box;
+    width: 68px;
+    height: 80px;
+}
+.images {
+    display: inline-block;
+    max-width: 70vw;
+    margin: 0px auto;
+}
+.images div  {
+    /* width: 400px; */
+    /* height: 100px; */
+    /* flex: 1 1 0%; */
+    /* float: left; */
+    /* align-content: center; */
+    float: left;
+}
+.testimonials {
+    clear: both;
+    display: block
 }
