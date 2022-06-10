@@ -79,7 +79,7 @@ body{
 }
 .about-img img{
     float: left;
-    max-width: 350px;
+    max-width: 45vw;
     height: auto;
     margin: 20px;
 }
@@ -88,6 +88,11 @@ body{
     text-align: justify;
     line-height: 40px;
     font-size: larger;
+}
+.back_top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }
 .gallery {
     color: white;
@@ -164,17 +169,17 @@ body{
 .final-wish {
     display: block;
     background: url(./img/bg_footer.jpg);
-    padding: 10vw;
+    padding: 5vw;
 }
 .words {
     display: block;
-    width: 70vw;
+    width: 80vw;
     margin: 0 auto;
     padding: 8px;
     background: rgb(255, 255, 255);
     opacity: 0.6;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     font-family: cursive;
 }
 .words h1, h3 {
